@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #562EFF;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+hr {
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.header_area {
+    background-color: #562EFF;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navigation .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation .logo img {
+    width: 45px;
+}
+
+.navigation .logo span {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    margin-left: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+.top_player {
+    background-color: white;
+    padding: 35px 30px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.player_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 0;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.player img {
+    width: 75px;
+}
+
+.player h3 {
+    text-transform: capitalize;
+}
+
+.top_blogs {
+    background-color: white;
+    padding: 35px 35px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 30px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog_img img {
+    width: 250px;
+}
+
+.blog_title p {
+    color: #9F9F9F;
+}
+
+.blog_title p span {
+    color: #562EFF;
+}
+
+.latest_course {
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px 35px;
+    margin-bottom: 50px;
+}
+
+.courses {
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.course {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(156, 154, 154);
+}
+
+.course h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.course p {
+    text-transform: capitalize;
+    color: #ED6B4F;
+}
+
+.course_img img {
+    width: 100%;
+}
