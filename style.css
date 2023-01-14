@@ -161,3 +161,28 @@ hr {
 .course_img img {
     width: 100%;
 }
+
+.cousrse_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating .filled {
+    color: #FFC014;
+}
+
+.rating .empty {
+    color: #AEAEAE;
+}
+
+.rating span {
+    color: #727070;
+}
+
+.duration {
+    color: red;
+    background-color: rgb(238, 198, 198);
+    text-align: center;
+    border-radius: 15px;
+    padding: 3px 10px;
+}
